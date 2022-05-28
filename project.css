@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.navbar{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	margin-top: 5px;
+	height: 40px;
+	width: 100%;
+}
+.logo{
+	display: flex;
+	padding-left:20px;
+	height:40px;
+	width:25%;
+}
+.search{
+	display: flex;
+	width: 50%;
+	justify-content: left;
+}
+.search i{
+	position: absolute;
+	padding-left: 10px;
+	padding-top: 10px;
+     width: 50%;
+}
+.fa fa-search{
+	 
+	 justify-content: left;
+}
+.input-field {
+            width: 80%;
+            padding: 10px;
+			text-align: center;
+			border-radius: 10px;
+			border-style: none;
+			background-color: #D3D3D3;
+  }
+  .ad{
+	  display: flex;
+	  justify-content: left;
+	  padding: 8px;
+	  border-radius: 20px;
+	  background-color: #D3D3D3;
+	  width: 2.5%;
+  }
+  .fa-solid fa-bullhorn{
+	  
+  }
+  .fa-solid fa-user-check{
+	  size: medium;
+  }
+  .buttons{
+	  width: 20%;
+	  margin-left: 15px;
+	  
+  }
+  .button1{
+	  padding: 5px 25px;
+	  color: blue;
+	  text-align: center;
+	  font-weight: 900;
+	  border-color: blue;
+	  border-radius: 15px;
+	  margin: 5px;
+	  font-size: medium;
+  }
+   .button2{
+	  padding: 5px 25px;
+	  color: blue;
+	  text-align: center;
+	  font-weight: 900;
+	  border-color: blue;
+	  border-radius: 15px;
+	  margin: 5px;
+	  font-size: medium;
+  }
+  .user{
+	   display: flex;
+	  justify-content: left;
+	  padding: 8px;
+	  border-radius: 20px;
+	  background-color: white;
+  
+  padding-right: 25px;
+  }
+ .header{
+	 margin-top: 10px;
+	 background-color: #FAFAD2;
+ }
+ h1{
+	 padding: 10px;
+	 text-align: center;
+ }
+ .img3{
+	 display: flex;
+	 justify-content: center;
+ }
+ .img3 img{
+	 margin: 20px;
+ }
+  .img2{
+	 display: flex;
+	 justify-content: center;
+ }
+ .img2 img{
+	 margin: 20px;
+ }
+ 
+	
